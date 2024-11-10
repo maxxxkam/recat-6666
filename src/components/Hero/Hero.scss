@@ -1,0 +1,24 @@
+.hero__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero__card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    img{
+        border-radius: 20px;
+    }
+    button{
+        padding: 20px;
+        border-radius: 20px;
+        background-color: darkcyan;
+
+    }
+
+
+}
